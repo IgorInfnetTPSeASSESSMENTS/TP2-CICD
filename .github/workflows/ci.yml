@@ -50,7 +50,7 @@ jobs:
           cache: maven
 
       - name: Generate SpotBugs report
-        run: mvn -B spotbugs:spotbu
+        run: mvn -B spotbugs:spotbugs
 
       - name: Publish SpotBugs report
         if: always()
