@@ -6,3 +6,6 @@ As ferramentas da interface do GitHub utilizadas nesse processo foram a aba **Ac
 
 Após identificar a causa, o comando incorreto foi corrigido no arquivo do workflow e um novo push foi realizado no repositório. Na execução seguinte, o pipeline foi concluído com sucesso, confirmando que o problema havia sido resolvido corretamente.
 
+## Diferença entre os dois modos de execução da pipeline
+
+Após executar o pipeline pelos dois modos, foi possível observar uma diferença clara entre eles. No disparo por **push**, a execução acontece automaticamente sempre que há uma alteração enviada para a branch configurada, o que é útil para garantir validação contínua do projeto sem depender de ação manual. Já no modo **Run workflow**, a execução é iniciada manualmente pela interface do GitHub Actions, permitindo escolher parâmetros e controlar melhor quando a pipeline deve rodar. Ao explorar os filtros da aba **Actions**, também ficou mais fácil identificar o tipo de gatilho utilizado em cada execução, diferenciando as execuções automáticas das manuais no histórico do workflow.
