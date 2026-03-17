@@ -1,3 +1,5 @@
+[![CI](https://github.com/IgorInfnetTPSeASSESSMENTS/TP2-CICD/actions/workflows/ci.yml/badge.svg)](https://github.com/IgorInfnetTPSeASSESSMENTS/TP2-CICD/actions/workflows/ci.yml)
+
 ## Depuração de falha no pipeline
 
 Durante o desenvolvimento da pipeline, foi provocado intencionalmente um erro em um dos steps do workflow para simular uma falha real de execução. A identificação do problema foi feita acessando a aba **Actions** do GitHub e abrindo a execução que falhou. Em seguida, foram analisados os **jobs**, os **steps** e principalmente os **logs** gerados pelo step com erro, onde foi possível localizar a causa da falha.
